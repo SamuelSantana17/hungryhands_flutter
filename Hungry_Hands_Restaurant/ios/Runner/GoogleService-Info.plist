@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>174689954309-q2kieg45d8ov0t5asffv13e42k9d4oqi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.174689954309-q2kieg45d8ov0t5asffv13e42k9d4oqi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBilk63vqStZhGFrCqJDV713qk-hMH_ez8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>174689954309</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.HungryHandsCSUN.Hungry-Hands-Restaurant</string>
+	<key>PROJECT_ID</key>
+	<string>hungryhands-restaurant</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hungryhands-restaurant.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:174689954309:ios:e0967812da1f111bd40a6c</string>
+</dict>
+</plist>

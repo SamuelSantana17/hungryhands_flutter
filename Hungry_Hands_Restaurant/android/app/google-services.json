@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174689954309",
+    "project_id": "hungryhands-restaurant",
+    "storage_bucket": "hungryhands-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174689954309:android:ab0f2bbe95870cc9d40a6c",
+        "android_client_info": {
+          "package_name": "com.HungryHandsCSUN.Hungry_Hands_Restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174689954309-lenvhri5tkgkegrc87i77og019u2ornq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkuCZCJPvDHtOJmM-GggMVAHZu4kwBuXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174689954309-lenvhri5tkgkegrc87i77og019u2ornq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

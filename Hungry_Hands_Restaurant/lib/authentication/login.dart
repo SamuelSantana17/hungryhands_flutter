@@ -1,80 +1,80 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hungryhands_flutter/palatte.dart';
-import 'package:hungryhands_flutter/widgets/background-image.dart';
+import 'package:hungryhands_flutter/screens/home_screen.dart';
+import 'package:hungryhands_flutter/widgets/text-input-email-password.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
+
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
+  TextEditingController _passwordTextController = TextEditingController();
+  TextEditingController _emailTextController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        BackgroundImage(),
         Scaffold(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.white,
           body: SafeArea(
               child: Column(
             children: [
+              Text(
+                "Hungry Hands",
+                style: GoogleFonts.lemon(textStyle: kHeaderText),
+              ),
+              Text(
+                "Restaurant Admin",
+                style: GoogleFonts.lemon(textStyle: kBodyText),
+              ),
               SizedBox(
-                height: 350,
+                height: 150,
               ),
               // ignore: avoid_unnecessary_containers
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Column(
                   children: [
-                    //Email Input Container
-                    TextInput(),
-                    //Password Input Container
-                    Container(
-                      decoration: BoxDecoration(
-                          color: Colors.grey[300]?.withOpacity(0.5),
-                          borderRadius: BorderRadius.circular(16)),
-                    )
-                  ],
+                    //Restaurant Email
+                    resuableTextFieldEP("Restaurant Email",
+                        FontAwesomeIcons.envelope, false, _emailTextController),
+                    //Spacer
+                    SizedBox(height: 20),
+                    //Restaurant ID
+                    resuableTextFieldEP(
+                        "Restaurant ID",
+                        FontAwesomeIcons.utensils,
+                        true,
+                        _passwordTextController),
+                    //Spacer
+                    SizedBox(height: 100),
+                    //Login Button
+                    loginSignupButton(context, true, () {
+                      FirebaseAuth.instance
+                          .signInWithEmailAndPassword(
+                              email: _emailTextController.text,
+                              password: _passwordTextController.text)
+                          .then((value) {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => HomeScreen()));
+                      });
+                    })
+                  ], //children list
                 ),
               )
             ],
           )),
         ),
       ],
-    );
-  }
-}
-
-class TextInput extends StatelessWidget {
-  const TextInput({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 12.0),
-      child: Container(
-        decoration: BoxDecoration(
-            color: Colors.grey[300]?.withOpacity(0.5),
-            borderRadius: BorderRadius.circular(16)),
-        child: TextField(
-          decoration: InputDecoration(
-              contentPadding: const EdgeInsets.symmetric(vertical: 20),
-              border: InputBorder.none,
-              hintText: "Restaurant Id",
-              prefixIcon: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Icon(
-                  FontAwesomeIcons.solidEnvelope,
-                  color: Colors.red,
-                  size: 20,
-                ),
-              ),
-              hintStyle: kBodyText),
-          style: kBodyText,
-          keyboardType: TextInputType.emailAddress,
-          textInputAction: TextInputAction.next,
-        ),
-      ),
     );
   }
 }

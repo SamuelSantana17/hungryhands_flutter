@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313367845409",
+    "project_id": "hungryhands-95fb4",
+    "storage_bucket": "hungryhands-95fb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313367845409:android:1ee142f154199594a0e160",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313367845409-ud6uuib3k74aau6l78qv43u2objbek4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHJE6bWfscTmmAqXa0BWYAKzh6mo-UgTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313367845409-ud6uuib3k74aau6l78qv43u2objbek4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

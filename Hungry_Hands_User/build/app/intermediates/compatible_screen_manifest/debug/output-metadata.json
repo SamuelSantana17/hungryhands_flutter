@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.myapp",
+  "applicationId": "com.HungryHandsCSUN.Hungry_Hands_User",
   "variantName": "debug",
   "elements": []
 }

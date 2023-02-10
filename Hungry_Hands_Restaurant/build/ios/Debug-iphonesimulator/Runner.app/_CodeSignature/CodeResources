@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		ycsQoGevH+YohPJxzF62PPSKXjI=
+		IQ2keF0hSe2XgpE2dNIZJSYkcNw=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		WJM7hPcCwyez2yFnAvSog89xyUo=
+		sQPRZEIpYkYc9Pxo4IiNN3zegvA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		3ULZbajHP1hXglayeD3+fsjxNCk=
+		Ol+ppFukgOnHrioAO5jdd/Hkddg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal</key>
 		<data>
-		y2JAt5CWwf+Hn3XSnNCLGbHGz/Q=
+		fBvwWPdMcmfWVN+84RwvLyV79rM=
 		</data>
 		<key>Frameworks/FirebaseCoreInternal.framework/Info.plist</key>
 		<data>
@@ -398,7 +398,7 @@
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
-		H/KZGWWyzdgCpW/l5kV/Nj2/fUE=
+		q9zg2R8Vcjh0qP2W69zyf+MCQB8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -485,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AKJ/NcA8uO+NZpn58dFrHCpxKrVbbSu4uQBNWB/QtGg=
+			bV/WDMjSZmM6NAFZhy4jTMsgzZKlgb/xEupdT93ESdY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -499,7 +499,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9lqIuqPAiYap0jP3d9Svat3PbC/LfPRN8vLBZCCd0zc=
+			sxwGgSmSYhjxPvhmy7OR7AKg7NzSaIz8ZHq/doljgVM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -562,7 +562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ru2rky3t1EhsEyx/sCqtuz/ysPP8DL5/gssSxR3d7AA=
+			NYKOMAwvI09n9LDWvGzrQ/oLNwx5iOUAJuNcsvRYz0c=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
@@ -667,7 +667,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LVfUi+OMbw79RdxbwthE4qIUBGmUSa6N7RunSpTHVa8=
+			dAXHA3KWB5c/Xmekh/FIRIi8yPy/SW2uTfS5l7/OPp4=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseCoreInternal.framework/Info.plist</key>
@@ -1101,7 +1101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gPi2rTU9ZPMsrBTyhBnupxHPtd1cgC/78YKXEvVaxw4=
+			ungjwbr5wHI0E6iuZ8q+yJfsDluLNW4PRzcPC+iu8T8=
 			</data>
 		</dict>
 	</dict>

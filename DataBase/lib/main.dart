@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:hands/insert_data.dart';
 import 'package:hands/fetch_data.dart';
+import 'package:hands/fetch_firestore.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -92,6 +94,18 @@ class _MyHomePageState extends State<MyHomePage> {
               minWidth: 300,
               height: 40,
             ),
+            MaterialButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const FetchFire()));
+              },
+              child: const Text('Fetch Data for firestore'),
+              color: Colors.blue,
+              textColor: Colors.white,
+              minWidth: 300,
+              height: 40,
+            ),
+
           ],
         ),
       ),

@@ -1,9 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../palatte.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  int _selectedIndex = 0;
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Stack(children: [
@@ -33,9 +47,11 @@ class HomeScreen extends StatelessWidget {
                     // Padding(padding: EdgeInsets.symmetric(horizontal: 10)
                     // )
                     Expanded(
-                      child: ListView(
-                        shrinkWrap: true,
-                        children: [Text("order")],
+                      child: SingleChildScrollView(
+                        child: ListView(
+                          shrinkWrap: true,
+                          children: [Text("order")],
+                        ),
                       ),
                     ),
                     Expanded(
@@ -55,6 +71,21 @@ class HomeScreen extends StatelessWidget {
               ),
             ]),
           ),
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(
+              icon: Icon(Icons.receipt),
+              label: "Orders",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(FontAwesomeIcons.chartLine),
+              label: "Analytics",
+            ),
+          ],
+          currentIndex: _selectedIndex,
+          selectedItemColor: Color.fromARGB(255, 210, 71, 61),
+          onTap: _onItemTapped,
         ),
       ),
     ]);

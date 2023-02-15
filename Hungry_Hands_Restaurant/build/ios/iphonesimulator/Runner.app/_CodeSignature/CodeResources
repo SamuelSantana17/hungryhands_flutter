@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		IQ2keF0hSe2XgpE2dNIZJSYkcNw=
+		lNBQFtBXsUc3095MT9AswfkMOVk=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sQPRZEIpYkYc9Pxo4IiNN3zegvA=
+		0VwllHsyaJ+VIX9WtFBwanrGAHY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		Ol+ppFukgOnHrioAO5jdd/Hkddg=
+		YgtG0+kKtv00Zc2nhcaD6b2TXEk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal</key>
 		<data>
-		fBvwWPdMcmfWVN+84RwvLyV79rM=
+		y2JAt5CWwf+Hn3XSnNCLGbHGz/Q=
 		</data>
 		<key>Frameworks/FirebaseCoreInternal.framework/Info.plist</key>
 		<data>
@@ -485,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bV/WDMjSZmM6NAFZhy4jTMsgzZKlgb/xEupdT93ESdY=
+			w7uaZW1ticmRTX8zAJq0Ozd9a2ISHfuf4O0c+kWzK48=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -499,7 +499,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxwGgSmSYhjxPvhmy7OR7AKg7NzSaIz8ZHq/doljgVM=
+			/yJnMIQKCjRRtnac3P5xXZIsuDF1A3a02BwySGT5iPY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -562,7 +562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYKOMAwvI09n9LDWvGzrQ/oLNwx5iOUAJuNcsvRYz0c=
+			N3pGcivs6+zdWEaK4WH0+FCiDAGezdA/QTTDm0laH48=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
@@ -667,7 +667,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dAXHA3KWB5c/Xmekh/FIRIi8yPy/SW2uTfS5l7/OPp4=
+			LVfUi+OMbw79RdxbwthE4qIUBGmUSa6N7RunSpTHVa8=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseCoreInternal.framework/Info.plist</key>

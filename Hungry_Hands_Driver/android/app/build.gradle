@@ -23,7 +23,10 @@ if (flutterVersionName == null) {
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+<<<<<<< HEAD
 apply plugin: 'com.google.gms.google-services'
+=======
+>>>>>>> ef3512d833c03afd54483327fe1973feaf425d69
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
@@ -45,7 +48,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId "com.HungryHandsCSUN.Hungry_Hands_Driver"
+=======
+        applicationId "com.example.hungry_hands_driver"
+>>>>>>> ef3512d833c03afd54483327fe1973feaf425d69
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion

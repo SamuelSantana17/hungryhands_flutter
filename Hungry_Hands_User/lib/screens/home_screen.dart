@@ -1,37 +1,54 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_database/firebase_database.dart';
+import 'package:hungry_hands/models/RestaurantModel.dart';
+import 'package:hungry_hands/widgets/search_box.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
+  static const String routeName = '/';
 
-        @override
-        _HomeScreenWidgetState createState() => _HomePageWidgetState();
-        }
-        
-        class _HomePageWidgetState extends State<HomePageWidget> {
-        @override
-        Widget build(BuildContext context) {
-        // Figma Flutter Generator HomePageWidget - FRAME
-        
-        return Container(
-      width: 430,
-      height: 932,
-      decoration: BoxDecoration(
-          color : Color.fromRGBO(255, 255, 255, 1),
-  ),
-      child: Stack(
-        children: <Widget>[
-          Positioned(
-        top: -152,
-        left: -255,
-        child: SvgPicture.asset(
-        'assets/images/ellipse1.svg',
-        semanticsLabel: 'ellipse1'
-      );
-      ),
-        ]
-      )
+  static Route route() {
+    return MaterialPageRoute(
+      builder: (_) => HomeScreen(),
+      settings: RouteSettings(name: routeName),
     );
-        }
-        }
-        
-        
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Restaurant'),
+      ),
+      backgroundColor: Theme.of(context).colorScheme.background,
+      body: searchBox(),
+    );
+  }
+}
+
+// ListView.builder(
+//           itemCount: RestaurantModel.restaurant.length,
+//           itemBuilder: (context, index) {
+//             return RestaurantCard(restaurant: RestaurantModel.restaurant[index]);
+//           }),
+
+class RestaurantCard extends StatelessWidget {
+  final RestaurantModel restaurant;
+  const RestaurantCard({super.key, required this.restaurant});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Container(
+          width: MediaQuery.of(context).size.width,
+          height: 150,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(5.0),
+            image: DecorationImage(
+              image: NetworkImage(restaurant.imageUrl),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}

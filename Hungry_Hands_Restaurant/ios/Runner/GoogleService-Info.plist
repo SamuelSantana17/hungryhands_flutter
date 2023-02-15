@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>174689954309-q2kieg45d8ov0t5asffv13e42k9d4oqi.apps.googleusercontent.com</string>
+	<string>812064294731-uqgk41fbjecoehht5dm72f2enmb1edok.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.174689954309-q2kieg45d8ov0t5asffv13e42k9d4oqi</string>
+	<string>com.googleusercontent.apps.812064294731-uqgk41fbjecoehht5dm72f2enmb1edok</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>812064294731-lc1pi8023n04tlcjpsfmlccfcd79pr7e.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBilk63vqStZhGFrCqJDV713qk-hMH_ez8</string>
+	<string>AIzaSyBuxiVSNSme6YMenu9b5TJyFLBhwcLLuRI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>174689954309</string>
+	<string>812064294731</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.HungryHandsCSUN.Hungry-Hands-Restaurant</string>
 	<key>PROJECT_ID</key>
-	<string>hungryhands-restaurant</string>
+	<string>hungryhands-69809</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hungryhands-restaurant.appspot.com</string>
+	<string>hungryhands-69809.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:174689954309:ios:e0967812da1f111bd40a6c</string>
+	<string>1:812064294731:ios:8366ccfa4b449699cd4ace</string>
+	<key>DATABASE_URL</key>
+	<string>https://hungryhands-69809-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

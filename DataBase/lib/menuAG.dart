@@ -7,15 +7,15 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 
 
-class FetchFire extends StatefulWidget {
-  const FetchFire({Key? key}) : super(key: key);
+class FetchMenuAG extends StatefulWidget {
+  const FetchMenuAG({Key? key}) : super(key: key);
 
   @override
-  State<FetchFire> createState() => _FetchDataState();
+  State<FetchMenuAG> createState() => _FetchDataState();
 }
 
 
-class _FetchDataState extends State<FetchFire> {
+class _FetchDataState extends State<FetchMenuAG> {
 // text fields' controllers
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _priceController = TextEditingController();
@@ -47,27 +47,14 @@ class _FetchDataState extends State<FetchFire> {
                   keyboardType:
                   const TextInputType.numberWithOptions(decimal: true),
                   controller: _priceController,
-                  decoration: const InputDecoration(labelText: 'price',
+                  decoration: const InputDecoration(
+                    labelText: 'price',
                   ),
                 ),
                 const SizedBox(
                   height: 20,
                 ),
-                ElevatedButton(
-                  child: const Text('Create'),
-                  onPressed: () async {
-                    final String name = _nameController.text;
-                    final double? price =
-                    double.tryParse(_priceController.text);
-                    if (price != null) {
-                      await _products.add({"food": name, "price": price});
 
-                      _nameController.text = '';
-                      _priceController.text = '';
-                      Navigator.of(context).pop();
-                    }
-                  },
-                )
               ],
             ),
           );
@@ -76,6 +63,7 @@ class _FetchDataState extends State<FetchFire> {
   }
   Future<void> _update([DocumentSnapshot? documentSnapshot]) async {
     if (documentSnapshot != null) {
+
       _nameController.text = documentSnapshot['food'];
       _priceController.text = documentSnapshot['price'].toString();
     }
@@ -103,29 +91,12 @@ class _FetchDataState extends State<FetchFire> {
                   const TextInputType.numberWithOptions(decimal: true),
                   controller: _priceController,
                   decoration: const InputDecoration(
-                    labelText: 'price',
+                    labelText: 'Price',
                   ),
                 ),
                 const SizedBox(
                   height: 20,
                 ),
-                ElevatedButton(
-                  child: const Text( 'Update'),
-                  onPressed: () async {
-                    final String name = _nameController.text;
-                    final double? price =
-                    double.tryParse(_priceController.text);
-                    if (price != null) {
-
-                      await _products
-                          .doc(documentSnapshot!.id)
-                          .update({"food": name, "price": price});
-                      _nameController.text = '';
-                      _priceController.text = '';
-                      Navigator.of(context).pop();
-                    }
-                  },
-                )
               ],
             ),
           );
@@ -162,17 +133,16 @@ class _FetchDataState extends State<FetchFire> {
                       trailing: SizedBox(
                         width: 100,
                         child: Row(
-                          children: [
-                            IconButton(
-                                icon: const Icon(Icons.edit),
-                                onPressed: () =>
-                                    _update(documentSnapshot)),
-                            IconButton(
-                                icon: const Icon(Icons.delete),
-                                onPressed: () =>
-                                    _delete(documentSnapshot.id)),
+                            children: [
+                        IconButton(icon: const Icon(Icons.add_outlined,color: Colors.deepOrange),
+                          onPressed: () =>
+                              _update(documentSnapshot)),
+                              IconButton(
+                                  icon: const Icon(Icons.remove_outlined),
+                                  onPressed: () =>
+                                      _delete(documentSnapshot.id)),
 
-                          ],
+                            ],
                         ),
                       ),
                     ),
@@ -187,12 +157,7 @@ class _FetchDataState extends State<FetchFire> {
           },
         ),
 // Add new product
-        floatingActionButton: FloatingActionButton(
-          onPressed: () => _create(),
-          child: const Icon(Icons.add),
 
-        ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat
     );
   }
 }

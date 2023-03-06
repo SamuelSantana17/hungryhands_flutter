@@ -48,8 +48,9 @@ android {
         applicationId "com.HungryHandsCSUN.Hungry_Hands_User"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 22
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 16
+        targetSdkVersion 28
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -69,7 +70,8 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    // implementation:"com.google.firebase:firebase-bom:31.2.0"
+    implementation:"com.google.firebase:firebase-bom:31.2.0"
     implementation "com.google.firebase:firebase-analytics-ktx"
-    // implementation:"com.google.gms.google-services"
+    implementation:"com.google.gms.google-services"
+    implementation 'com.android.support:multidex:1.0.3'
 }

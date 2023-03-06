@@ -5,11 +5,6 @@
 import FlutterMacOS
 import Foundation
 
-<<<<<<< HEAD
-import path_provider_foundation
-
-func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-=======
 import cloud_firestore
 import firebase_analytics
 import firebase_auth
@@ -23,6 +18,5 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FLTFirebaseAuthPlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseAuthPlugin"))
   FLTFirebaseCorePlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseCorePlugin"))
   FLTFirebaseDatabasePlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseDatabasePlugin"))
->>>>>>> ef3512d833c03afd54483327fe1973feaf425d69
   PathProviderPlugin.register(with: registry.registrar(forPlugin: "PathProviderPlugin"))
 }

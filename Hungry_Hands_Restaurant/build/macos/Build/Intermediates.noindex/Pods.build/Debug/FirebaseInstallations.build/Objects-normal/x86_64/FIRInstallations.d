@@ -1,0 +1,53 @@
+dependencies: \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallations.m \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallations.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/build/macos/Build/Intermediates.noindex/Pods.build/Debug/PromisesObjC.build/module.modulemap \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Wrap.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Validate.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Timeout.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Then.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Testing.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Retry.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Reduce.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Recover.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Race.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Do.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Delay.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Catch.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Await.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Async.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Any.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Always.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+All.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/Target\ Support\ Files/PromisesObjC/PromisesObjC-umbrella.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRComponent.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRDependency.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRLogger.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseCore/Extension/FIROptionsInternal.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsAuthTokenResultInternal.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsItem.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsStatus.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsLogger.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsIDController.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsStore/FIRInstallationsStoredAuthToken.h

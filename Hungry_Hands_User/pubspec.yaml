@@ -12,7 +12,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-<<<<<<< HEAD
   firebase_core: ^2.5.0
   firebase_auth: ^4.2.5
   google_sign_in: ^4.4.4
@@ -20,11 +19,6 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
  
  
-=======
- 
-
-  firebase_core: ^2.5.0
->>>>>>> 5244e10826acfdf39f9837adc37825188593c984
   firebase_analytics: ^10.1.0
  
   cloud_firestore: ^4.3.1

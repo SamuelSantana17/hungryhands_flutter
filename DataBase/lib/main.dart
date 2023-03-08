@@ -3,6 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:hands/insert_data.dart';
 import 'package:hands/fetch_data.dart';
 import 'package:hands/fetch_firestore.dart';
+import 'package:hands/menuAG.dart';
+import 'package:hands/pandMenu.dart';
 
 
 void main() async {
@@ -100,6 +102,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     MaterialPageRoute(builder: (context) => const FetchFire()));
               },
               child: const Text('Fetch Data for firestore'),
+              color: Colors.blue,
+              textColor: Colors.white,
+              minWidth: 300,
+              height: 40,
+            ),MaterialButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const FetchMenuAG()));
+              },
+              child: const Text('AbarGrill Menu Fetch'),
               color: Colors.blue,
               textColor: Colors.white,
               minWidth: 300,

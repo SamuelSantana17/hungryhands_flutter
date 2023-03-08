@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "b8f26e11887d07e3be110f027a164413906782effee35f258099c6af7dcc901c"
+build_start_time: [1676777672, 987185001]
+build_end_time: [1676777673, 41130065]
+inputs:
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : !private [1676777647, 339481830]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : !private [1676777647, 341111421]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : !private [1676777647, 342164516]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : !private [1676777647, 342623233]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : !private [1676777647, 343561172]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : !private [1676777647, 340022802]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : !private [1676777647, 338810682]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : !private [1676777647, 344239711]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : !private [1676777647, 343039989]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : !private [1676777647, 340551376]
+  ? "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : !private [1676777647, 341619253]

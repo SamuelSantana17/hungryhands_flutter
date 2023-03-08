@@ -1,5 +1,5 @@
+import 'dart:ffi';
 import 'package:equatable/equatable.dart';
-
 import 'models.dart';
 
 class RestaurantModel extends Equatable {

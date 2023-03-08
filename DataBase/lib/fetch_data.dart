@@ -20,28 +20,28 @@ class _FetchDataState extends State<FetchData> {
       margin: const EdgeInsets.all(10),
       padding: const EdgeInsets.all(10),
       height: 110,
-      color: Colors.amberAccent,
+      color: Colors.grey[300],
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             student['name'],
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
           ),
           const SizedBox(
-            height: 5,
+            height: 1,
           ),
           Text(
-            student['age'],
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+            student['Email'],
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
           ),
           const SizedBox(
-            height: 5,
+            height: 1,
           ),
           Text(
-            student['salary'],
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+            student['PhoneNumber'],
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,

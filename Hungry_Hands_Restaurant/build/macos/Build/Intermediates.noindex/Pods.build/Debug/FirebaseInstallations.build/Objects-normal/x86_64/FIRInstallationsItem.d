@@ -1,0 +1,9 @@
+dependencies: \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsItem.m \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsItem.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsStatus.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsStore/FIRInstallationsStoredAuthToken.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsStore/FIRInstallationsStoredItem.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h \
+  /Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h

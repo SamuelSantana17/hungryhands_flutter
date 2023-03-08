@@ -47,8 +47,7 @@ class _FetchDataState extends State<FetchFire> {
                   keyboardType:
                   const TextInputType.numberWithOptions(decimal: true),
                   controller: _priceController,
-                  decoration: const InputDecoration(
-                    labelText: 'price',
+                  decoration: const InputDecoration(labelText: 'price',
                   ),
                 ),
                 const SizedBox(
@@ -77,7 +76,6 @@ class _FetchDataState extends State<FetchFire> {
   }
   Future<void> _update([DocumentSnapshot? documentSnapshot]) async {
     if (documentSnapshot != null) {
-
       _nameController.text = documentSnapshot['food'];
       _priceController.text = documentSnapshot['price'].toString();
     }
@@ -105,7 +103,7 @@ class _FetchDataState extends State<FetchFire> {
                   const TextInputType.numberWithOptions(decimal: true),
                   controller: _priceController,
                   decoration: const InputDecoration(
-                    labelText: 'Price',
+                    labelText: 'price',
                   ),
                 ),
                 const SizedBox(
@@ -173,6 +171,7 @@ class _FetchDataState extends State<FetchFire> {
                                 icon: const Icon(Icons.delete),
                                 onPressed: () =>
                                     _delete(documentSnapshot.id)),
+
                           ],
                         ),
                       ),

@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/build/macos/Build/Products/Debug/FirebaseCoreInternal/FirebaseCoreInternal.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/samuelsantana/StudioProjects/hungryhands_flutter/Hungry_Hands_Restaurant/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -31,12 +31,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: GoogleFonts.lemon(textStyle: kHeaderText),
               ),
               Text(
-                "Restaurant Admin",
+                "Restaurant Dashboard",
                 style: GoogleFonts.lemon(textStyle: kBodyText),
               ),
-              SizedBox(
-                height: 150,
-              ),
+
               // ignore: avoid_unnecessary_containers
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -49,7 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(height: 20),
                     //Restaurant ID
                     resuableTextFieldEP(
-                        "Restaurant ID",
+                        "Restaurant Password",
                         FontAwesomeIcons.utensils,
                         true,
                         _passwordTextController),

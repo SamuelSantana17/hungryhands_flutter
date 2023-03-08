@@ -1,12 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 //import 'package:google_sign_in/google_sign_in.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hungry_hands/authentication/signup.dart';
 import 'package:hungry_hands/palette.dart';
 import 'package:hungry_hands/screens/home_screen.dart';
-import 'package:hungry_hands/widgets/text-input-email-password.dart';
+import 'package:hungry_hands/services/firebase_services.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -18,19 +16,116 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: ElevatedButton(
-            child: const Text('Go to HomePage'),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HomeScreen()),
-              );
-            }),
+    return Container(
+      decoration: BoxDecoration(
+          gradient: LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
+              colors: [
+            Colors.black,
+            Colors.white,
+            Colors.red,
+          ])),
+
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            "Hungry Hands",
+            style: GoogleFonts.lemon(textStyle: kHeaderText),
+          ),
+          Text(
+            "Food App",
+            style: GoogleFonts.lemon(textStyle: kBodyText),
+          ),
+
+          //add more login and sign up options, maybe ?
+          Container(
+            //alignment: AlignmentDirectional.center,
+            margin: EdgeInsets.symmetric(horizontal: 20),
+            child: ElevatedButton(
+              onPressed: () async {
+                await FirebaseServices().signInWithGoogle();
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()));
+              },
+              style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.resolveWith((states) {
+                if (states.contains(MaterialState.pressed)) {
+                  return Colors.black26;
+                }
+                return Colors.white;
+              })),
+              child: Padding(
+                padding: const EdgeInsets.all(1.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image(
+                      image: AssetImage("images/google.png"),
+                      height: 40,
+                      width: 40,
+                      // image: Null,
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    const Text(
+                      "Login with Gmail",
+                      style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black87),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
+      //),
+      // ],
+      //  ),
+
+      //  ),
+      //  ],
+      // ),
     );
   }
+}
+       
+     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // body: Center(
+  //   child: ElevatedButton(
+  //       child: const Text('Go to HomePage'),
+  //       onPressed: () {
+  //         Navigator.push(
+  //           context,
+  //           MaterialPageRoute(builder: (context) => HomeScreen()),
+  //         );
+  //       }),
+  // ),
 
 //   TextEditingController _passwordTextController = TextEditingController();
 //   TextEditingController _emailTextController = TextEditingController();
@@ -127,4 +222,4 @@ class _LoginScreenState extends State<LoginScreen> {
 //       ],
 //     );
 //  }
-}
+
